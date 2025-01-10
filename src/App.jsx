@@ -1,10 +1,16 @@
-import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import MainLayout from './components/Layout/Layout';
 
 function App() {
     return (
-        <div>
-            <h1>E-commerce</h1>
-        </div>
+        <>
+            <MainLayout>
+                <Header />
+                Content
+                <Footer />
+            </MainLayout>
+        </>
     );
 }
 
